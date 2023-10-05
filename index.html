@@ -5,61 +5,106 @@
       body{
         padding-top:40px;
         padding-bottom: 40px;
-      }
-  
-      .banner-image {
-  width: 128px;
-  height: 128px;
+        background-color:black;
+        display: flex;
+        justify-content: center;
+      } 
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width:640px;
+  flex-grow: 1;
+}
+
+.name {
+  color:antiquewhite;
+  justify-content: center
+}
+
+.social-icons a {
+  color:lightseagreen;
+  text-decoration: none;
+}
+
+.link {
+  background-color:rgb(3, 80, 80);
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.link a {
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.banner{
+  display:flex;
+  justify-content: center;
+}
+
+.banner-image {
+  width: 160px;
+  height: 160px;
   object-fit: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .thumbnail{
-  width:107px;
-  height: 150px;
+  width: 96px;
+  height: 135px;
   object-fit: cover;
 }
     </style>
+
       <title> Tom Ferrarello</title>
       <meta charset="utf-8">
       <meta name="author" content="Tom Ferrarello">
   </Head>
+
   <body>
+    <div class="items">
+
       <div class="banner">
         <img src="/thumbnails/71BAWp9mzqL._AC_UF894,1000_QL80_.jpg" alt="skeleton reading a book" class="banner-image">
       </div>
 
-      <div class="name">
-        The sayings of the wise are like goads,<br> and those from masters of collections are like firmly embedded nails.<br> The sayings are given by one Shepherd.<br> But beyond these, my son, be warned:<br> there is no end to the making of many books,<br> and much study wearies the body.<br> -Ecclesiastes 12:11-12 <br>
+      <div class="link">
+        <a href="https://www.biblegateway.com/passage/?search=Ecclesiastes+12%3A11-12&version=HCSB" target="_blank">
+        The sayings of the wise are like goads,<br> and those from masters of collections are like firmly embedded nails.<br> The sayings are given by one Shepherd.<br> But beyond these, my son, be warned:<br> there is no end to the making of many books,<br> and much study wearies the body.<br> -Ecclesiastes 12:11-12 <br> 
+        <p>...well here's 2023's Book List anyway</p>
+      </a>
+        
 
-        But I'd like to finish reading these this year anyway,
       </div>
 
-      <div class="social-icons">
+      <div class="link">
         <img src="/thumbnails/51HEH7eOmNL._SY445_SX342_.jpg" alt="book cover" class="thumbnail">
+
         <a href="https://www.amazon.com/Dumbing-Down-Curriculum-Compulsory-Schooling/dp/0865718547/ref=asc_df_0865718547/?tag=hyprod-20&linkCode=df0&hvadid=312425492373&hvpos=&hvnetw=g&hvrand=12156700497224655427&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9021727&hvtargid=pla-415790117893&psc=1" target="_blank">
           Dumbing Us Down -John Taylor Gatto
         </a>
         </div>
 
-        <div>
+        <div class="link">
           <img src="/thumbnails/71s6aqym+zL._SY466_.jpg" alt="book cover" class="thumbnail">
           <a href="https://www.amazon.com/History-Strategy-Sun-William-Lind/dp/9527065542" target="_blank">
           A History of Strategy -Martin Van Creveld
         </a>
       </div>
-        
-      <div>
-        <img src="/thumbnails/51YQJ8flTAL._SY445_SX342_.jpg" alt="book cover" class="thumbnail">
-        <a href="https://www.amazon.com/Complete-54-Book-Apocrypha-Deuterocanon-Pseudepigrapha/dp/1954419058" target="_blank">
-              The Complete 54-Book Apocrypha -Covenant Press
-            </a>
-      </div>
       
-      <div class="thumbnail">
+      <div class="link">
         <img src="/thumbnails/FTDW_Cover.webp" alt="book cover" class="thumbnail">
         <a href="https://www.freetradedoesntwork.com/" target="_blank"> 
               Free Trade Doesn't Work -Ian Fletcher
         </a>
+      </div>
+
       </div>
 
       <!-- Etc, for as many links as you want -->
